@@ -16,7 +16,7 @@ Run "demo.py" for a demonstration.
 ```sh
 python demo.py
 ```
-See more details in demp.py and AdaptiveBinning.py.
+See more details in demp.py and AdaptiveBinning.py. Please let me know if you have any question or comments: yding5@nd.edu.
 
 A few examples are shown below where ECE and MCE are shown in percentage.
 

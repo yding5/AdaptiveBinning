@@ -1,5 +1,5 @@
 from __future__ import division
-from AaptiveBinning import AaptiveBinning
+from AdaptiveBinning import AdaptiveBinning
 import numpy as np
 
 def softmax(x):
@@ -22,7 +22,7 @@ for i in range(len(data)):
 	infer_results.append([probability[i][prediction[i]], correctness])
 
 # Call AdaptiveBinning.
-AECE, AMCE, confidence, accuracy, cof_min, cof_max = AaptiveBinning(infer_results, True)
+AECE, AMCE, confidence, accuracy, cof_min, cof_max = AdaptiveBinning(infer_results, True)
 
 print('ECE based on adaptive binning: {}'.format(AECE))
 print('MCE based on adaptive binning: {}'.format(AMCE))
